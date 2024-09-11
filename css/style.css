@@ -33,15 +33,27 @@ img {
 }
 
 .box {
-    max-width: auto;
-    border:1px solid var(--dark-color);
-    margin-bottom: 1em;
-    margin-top: 1em;
-    padding: .5em 1em;
-    ;
+  max-width: auto;
+  border:1px solid var(--dark-color);
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.boxbg {
+  max-width: auto;
+  border:1px solid var(--dark-color);
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background-color: black;
 }
 .p {
-    margin: auto;
+  margin: auto;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
 }
 
 .row {
