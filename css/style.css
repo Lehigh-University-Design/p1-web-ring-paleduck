@@ -98,3 +98,7 @@ img {
   position:relative;
   bottom:0px;
 }
+.webring-link:hover {
+  color: #FFE8A3; /* Accent color on hover */
+  text-decoration: underline; /* Light underline to indicate interaction */
+}
