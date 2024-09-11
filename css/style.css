@@ -8,9 +8,13 @@
    body {
     font-family:"Poppins";
     background-color: var(--background-color);
-    margin:2em;
     font-size: 16px;
-}
+    margin:0px;
+   }
+   
+   main {
+    margin:2em;
+   }
 
 img {
     border:1px solid var(--dark-color);
@@ -24,8 +28,8 @@ img {
     z-index: 9999;
     top:0px;
     width:100%;
+    margin:0px;
     background-color: black;
-    margin-left: -2em;
 }
 .title {
     color:white;
@@ -53,6 +57,7 @@ img {
 
 .row {
     display: flex;
+    padding-bottom: 1em;
   }
   
   .column {
@@ -72,3 +77,24 @@ img {
     clear: both;
     display: table;
   }
+
+  .webring-links {
+    display: flex;
+    justify-content:space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.webring-link {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.webring-footer {
+  padding: 20px 0;
+  background-color: black;
+  width:100%;
+  position:relative;
+  bottom:0px;
+}
