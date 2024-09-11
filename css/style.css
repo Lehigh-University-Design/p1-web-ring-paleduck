@@ -81,8 +81,8 @@ img {
   .webring-links {
     display: flex;
     justify-content:space-between;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: auto;
+    margin:2em;
 }
 
 .webring-link {
