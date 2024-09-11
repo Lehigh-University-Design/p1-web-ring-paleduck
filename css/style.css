@@ -92,13 +92,13 @@ img {
     transition: color 0.3s ease;
 }
 .webring-footer {
-  padding: 20px 0;
+  padding: 1px;
   background-color: black;
   width:100%;
   position:relative;
   bottom:0px;
 }
 .webring-link:hover {
-  color: #FFE8A3; /* Accent color on hover */
-  text-decoration: underline; /* Light underline to indicate interaction */
+  color: #FFE8A3; 
+  text-decoration: underline;
 }
