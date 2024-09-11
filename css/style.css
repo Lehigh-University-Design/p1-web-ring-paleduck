@@ -51,11 +51,6 @@ img {
   margin: auto;
 }
 
-.center {
-  margin: auto;
-  width: 50%;
-}
-
 .row {
     display: flex;
   }
